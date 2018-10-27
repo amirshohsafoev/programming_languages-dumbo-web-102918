@@ -6,8 +6,7 @@ def reformat_languages(languages)
    #amir =  language.values << {:style => [:oo]}
     #puts amir
     language.keys.each do |keys|
-      keys[:style] = []
-     
+      keys = {:style => [:oo]}
 binding.pry
   # your code here
 end
