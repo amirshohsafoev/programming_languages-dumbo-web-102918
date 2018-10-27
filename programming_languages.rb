@@ -8,6 +8,7 @@ def reformat_languages(languages)
     language.keys.each do |keys|
       keys = {:style => [:oo]}
 binding.pry
+return language
   # your code here
 end
 binding.pry
